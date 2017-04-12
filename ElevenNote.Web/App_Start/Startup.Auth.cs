@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using ElevenNote.Web.Models;
+using ElevenNote.Web.Data;
 
 namespace ElevenNote.Web
 {
