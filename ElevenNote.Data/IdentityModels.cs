@@ -5,6 +5,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using ElevenNote.Data;
 
 namespace ElevenNote.Web.Data
 {
@@ -32,6 +33,9 @@ namespace ElevenNote.Web.Data
             return new ApplicationDbContext();
         }
 
+        public DbSet<Note> Notes { get; set; }
+
+        //Creating instances of the classes we created
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
@@ -39,7 +43,7 @@ namespace ElevenNote.Web.Data
             modelBuilder.Configurations.Add(new IdentityUserLoginConfiguration()).Add(new IdentityUserRoleConfiguration());
         }
     }
-
+    //MVC built in framework that allows us to accept user specific information, built on Entity framework, which builds databases for us.
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {
         public IdentityUserLoginConfiguration()
@@ -47,7 +51,7 @@ namespace ElevenNote.Web.Data
             HasKey(iul => iul.UserId);
         }
     }
-
+    //This would be the method that sets up roles for users, IE Admins, Managers, Employees, etc.
     public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
     {
         public IdentityUserRoleConfiguration()
