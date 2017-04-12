@@ -1,0 +1,1 @@
+c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Web\obj\Debug\ElevenNote.Web.csprojResolveAssemblyReference.cache
