@@ -101,3 +101,4 @@ c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\Eleven
 c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Web\bin\Microsoft.AI.Web.xml
 c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Web\obj\Debug\ElevenNote.Web.dll
 c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Web\obj\Debug\ElevenNote.Web.pdb
+c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Web\bin\ElevenNote.Service.dll.config
