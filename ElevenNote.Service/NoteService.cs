@@ -44,6 +44,7 @@ namespace ElevenNote.Service
                                 {
                                     NoteId = e.NoteId,
                                     Title = e.Title,
+                                    IsStarred = e.IsStarred,
                                     CreatedUtc = e.CreatedUtc
                                 });
                 return query.ToArray();

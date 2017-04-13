@@ -14,3 +14,4 @@ c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\Eleven
 c:\users\balleronabudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
 C:\Users\BallerOnABudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
 C:\Users\BallerOnABudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.Cache
+C:\Users\BallerOnABudget\documents\visual studio 2017\Projects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.AddIsStarred.resources
