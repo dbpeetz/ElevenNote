@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Details.cs" />
     <Compile Include="NoteCreate.cs" />
+    <Compile Include="NoteEdit.cs" />
     <Compile Include="NoteListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
