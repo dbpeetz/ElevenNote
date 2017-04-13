@@ -13,6 +13,7 @@ namespace ElevenNote.Models
 
         public string Title { get; set; }
 
+        [UIHint("Starred")]
         public bool IsStarred { get; set; }
 
         [Display(Name = "Created")]
