@@ -44,6 +44,11 @@ namespace ElevenNote.Web.Controllers
 
         }
 
+        public ActionResult Details(int id)
+        {
+            return View(model);
+        }
+
         private NoteService CreateNoteService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
